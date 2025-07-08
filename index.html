@@ -4,170 +4,243 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smithy Tools Store</title>
-  <style>
-    body {
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      text-align: center;
-      padding: 30px;
-      background-color: #111;
-      border-bottom: 2px solid #ffa500;
-    }
-    header img {
-      height: 80px;
-      margin-bottom: 10px;
-    }
-    h1 {
-      margin: 10px 0 5px;
-      color: #ffa500;
-    }
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 20px;
-    }
-    .search-box {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .search-box input {
-      padding: 10px;
-      width: 80%;
-      max-width: 400px;
-      border-radius: 8px;
-      border: none;
-      font-size: 16px;
-    }
-    .tools-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .tool-card {
-      background-color: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(255, 165, 0, 0.1);
-    }
-    .tool-card h2 {
-      color: #ffa500;
-      margin-top: 0;
-    }
-    .unlock-section {
-      margin-top: 15px;
-    }
-    .unlock-section input {
-      width: 100%;
-      padding: 8px;
-      border-radius: 6px;
-      border: none;
-      margin-bottom: 10px;
-    }
-    .unlock-button {
-      background-color: #ffa500;
-      color: #000;
-      padding: 10px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      width: 100%;
-    }
-    .unlock-button:hover {
-      background-color: #cc8400;
-    }
-    .payment-info {
-      text-align: center;
-      padding: 30px;
-      background-color: #111;
-      margin-top: 40px;
-      border-top: 2px solid #ffa500;
-    }
-    .payment-info h3 {
-      color: #ffa500;
-    }
-    a {
-      color: #ffa500;
-    }
-    @media screen and (max-width: 600px) {
-      .search-box input {
-        width: 95%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="jfh.JPG" alt="Smithy Tools Logo">
+    <img src="mnb.JPG" alt="Smithy Tools Logo" style="height: 80px;">
     <h1>🔥 Smithy Tools Store</h1>
-    <p>Advanced Private Tools – DM <a href="https://t.me/smithydeveloper" target="_blank">@smithydeveloper</a> to unlock</p>
+    <p>Advanced Private Sector Tools – Reserved for Specialists</p>
+    <p>✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper" style="color:#ffa500">@smithydeveloper</a> to unlock</p>
   </header>
 
   <div class="container">
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search tools..." onkeyup="filterTools()">
+    <!-- TOOL 1 -->
+    <div class="tool-card">
+      <h2>EX4_Unpacker_Pro</h2>
+      <p><strong>Category:</strong> Forex Tool</p>
+      <p>Unpack compiled MetaTrader 4 (EX4) files into editable MQ4 format.</p>
+      <p><strong>Price:</strong> $100</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Saved me hours of reverse engineering.” – @forexKing<br>
+        ⭐️⭐️⭐️⭐️ – “Works on most EX4s.” – @mt4modder
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
     </div>
 
-    <div class="tools-grid" id="toolsGrid">
-      <!-- Tool Cards Will Go Here -->
+    <!-- TOOL 2 -->
+    <div class="tool-card">
+      <h2>APK_Analyzer_Pro</h2>
+      <p><strong>Category:</strong> Android Reverse Engineering</p>
+      <p>Decompile, analyze, and repackage APK files.</p>
+      <p><strong>Price:</strong> $125</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Best APK breakdown tool I've ever used.” – @droidRex<br>
+        ⭐️⭐️⭐️⭐️ – “Handles complex apps easily.” – @moddev
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
     </div>
+
+    <!-- TOOL 3 -->
+    <div class="tool-card">
+      <h2>GameMod_Builder</h2>
+      <p><strong>Category:</strong> Game Hacking</p>
+      <p>Create game mods using memory editing and patch injection.</p>
+      <p><strong>Price:</strong> $100</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Made cheat creation easy.” – @gameXploit<br>
+        ⭐️⭐️⭐️⭐️ – “Great for Unity/Unreal mods.” – @modpatcher
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 4 -->
+    <div class="tool-card">
+      <h2>Phone_SpyX_Viewer</h2>
+      <p><strong>Category:</strong> Mobile Monitoring</p>
+      <p>Analyze and view extracted data from monitored phones.</p>
+      <p><strong>Price:</strong> $120</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “In-depth reports, works great.” – @cybertrack<br>
+        ⭐️⭐️⭐️ – “Viewer is smooth, but lacks real-time.” – @agentx
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 5 -->
+    <div class="tool-card">
+      <h2>Social_TrackSuite</h2>
+      <p><strong>Category:</strong> OSINT / Social Media</p>
+      <p>Track and compile activity from social media platforms.</p>
+      <p><strong>Price:</strong> $150</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Insane detail from just usernames.” – @osintKing<br>
+        ⭐️⭐️⭐️⭐️ – “Works best on public accounts.” – @infocreep
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 6 -->
+    <div class="tool-card">
+      <h2>InstaKill_Pro</h2>
+      <p><strong>Category:</strong> Instagram Tool</p>
+      <p>Disable or disrupt Instagram sessions and accounts.</p>
+      <p><strong>Price:</strong> $125</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Pulled 3 accounts down in minutes.” – @instahack<br>
+        ⭐️⭐️⭐️ – “Only works if session is active.” – @sneakydev
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 7 -->
+    <div class="tool-card">
+      <h2>FTK_8.1</h2>
+      <p><strong>Category:</strong> Forensics</p>
+      <p>Perform full disk and memory forensic analysis.</p>
+      <p><strong>Price:</strong> $150</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Impressive forensic snapshot tool.” – @cyberlab<br>
+        ⭐️⭐️⭐️⭐️ – “A bit resource heavy but powerful.” – @sysdeep
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 8 -->
+    <div class="tool-card">
+      <h2>Cloud_Crack_Agent</h2>
+      <p><strong>Category:</strong> Cloud Hacking</p>
+      <p>Cracks weak authentication on misconfigured cloud services.</p>
+      <p><strong>Price:</strong> $120</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Got into 2 old S3 buckets.” – @s3hunter<br>
+        ⭐️⭐️⭐️ – “Needs more provider support.” – @cloudbypass
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 9 -->
+    <div class="tool-card">
+      <h2>iOS_Decompiler</h2>
+      <p><strong>Category:</strong> iOS Reverse Engineering</p>
+      <p>Decompile iOS binaries into readable Objective-C or Swift.</p>
+      <p><strong>Price:</strong> $120</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Best static analyzer for iOS.” – @jailbreak<br>
+        ⭐️⭐️⭐️⭐️ – “Worked well on my ARM64 dumps.” – @iosre
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 10 -->
+    <div class="tool-card">
+      <h2>Unity_Dumper</h2>
+      <p><strong>Category:</strong> Game Engine Tool</p>
+      <p>Dump Unity game assets, scripts, and scenes from compiled builds.</p>
+      <p><strong>Price:</strong> $180</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Extracted full assets from Android Unity game.” – @devxray<br>
+        ⭐️⭐️⭐️⭐️ – “Some games use obfuscation though.” – @toolninja
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 11 -->
+    <div class="tool-card">
+      <h2>Browser_Cookie_Extractor</h2>
+      <p><strong>Category:</strong> Credential Tools</p>
+      <p>Extract saved cookies and session tokens from major browsers.</p>
+      <p><strong>Price:</strong> $130</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Pulled out all saved logins.” – @sessionKing<br>
+        ⭐️⭐️⭐️⭐️ – “Works best with local access.” – @pcgrabber
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 12 -->
+    <div class="tool-card">
+      <h2>Account_Deleter_v2</h2>
+      <p><strong>Category:</strong> Destructive Tools</p>
+      <p>Sends automated deletion requests for app and social accounts.</p>
+      <p><strong>Price:</strong> $130</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️ – “Used for old Gmail purge. Did the job.” – @wipedclean<br>
+        ⭐️⭐️⭐️ – “Not all services supported.” – @limiter
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 13 -->
+    <div class="tool-card">
+      <h2>DLL_Injection_Kit</h2>
+      <p><strong>Category:</strong> Malware Dev Tools</p>
+      <p>Inject DLLs into running Windows processes.</p>
+      <p><strong>Price:</strong> $100</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Perfect for process hijack testing.” – @codemonkey<br>
+        ⭐️⭐️⭐️⭐️ – “Anti-virus flag on most builds.” – @injectx
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 14 -->
+    <div class="tool-card">
+      <h2>GeoIP_Tracker</h2>
+      <p><strong>Category:</strong> Network Intelligence</p>
+      <p>Track IP addresses to geographic locations using IP/ASN data.</p>
+      <p><strong>Price:</strong> $150</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Pinpointed IP down to city block.” – @netwatch<br>
+        ⭐️⭐️⭐️⭐️ – “Good for threat intel.” – @locat3r
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
+    <!-- TOOL 15 -->
+    <div class="tool-card">
+      <h2>Crypto_Wallet_Profiler</h2>
+      <p><strong>Category:</strong> Blockchain OSINT</p>
+      <p>Analyze wallet histories, transaction patterns, and identity links.</p>
+      <p><strong>Price:</strong> $200</p>
+      <div class="reviews">
+        ⭐️⭐️⭐️⭐️⭐️ – “Revealed hidden wallet network. A++.” – @chainhunter<br>
+        ⭐️⭐️⭐️⭐️ – “Very useful for BTC/Ethereum.” – @ledgertrace
+      </div>
+      <input type="password" class="password-input" placeholder="Enter password to unlock">
+      <button class="unlock-button">Unlock to Download</button>
+      <span class="unlock-note">✅ Verified Users Only – DM <a href="https://t.me/smithydeveloper">@smithydeveloper</a></span>
+    </div>
+
   </div>
-
-  <div class="payment-info">
-    <h3>💳 Payment Methods</h3>
-    <p>Crypto (BTC, ETH, USDT), PayPal, or Gift Cards are accepted.</p>
-    <p>After payment, DM <a href="https://t.me/smithydeveloper" target="_blank">@smithydeveloper</a> to receive your unlock password.</p>
-  </div>
-
-  <script>
-    const tools = [
-      { name: "EX4_Unpacker_Pro", price: "$100", description: "Unpack compiled EX4 files to MQ4." },
-      { name: "APK_Analyzer_Pro", price: "$125", description: "Decompile, analyze, and rebuild APKs." },
-      { name: "GameMod_Builder", price: "$100", description: "Create game mods using memory patching." },
-      { name: "Phone_SpyX_Viewer", price: "$120", description: "Analyze and view phone monitor data." },
-      { name: "Social_TrackSuite", price: "$150", description: "Track social media user activity." },
-      { name: "InstaKill_Pro", price: "$125", description: "Disable or disrupt Instagram sessions." },
-      { name: "FTK_8.1", price: "$150", description: "Full disk forensic toolset for Windows." },
-      { name: "Cloud_Crack_Agent", price: "$120", description: "Crack weakly secured cloud services." },
-      { name: "iOS_Decompiler", price: "$120", description: "Reverse engineer iOS binaries." },
-      { name: "Unity_Dumper", price: "$180", description: "Dump Unity game assets from APKs." },
-      { name: "Browser_Cookie_Extractor", price: "$130", description: "Extract saved browser cookies and sessions." },
-      { name: "Account_Deleter_v2", price: "$130", description: "Automate deletion of app and web accounts." },
-      { name: "DLL_Injection_Kit", price: "$100", description: "Inject DLLs into Windows processes." },
-      { name: "GeoIP_Tracker", price: "$150", description: "Track IP addresses with geolocation." },
-      { name: "Crypto_Wallet_Profiler", price: "$200", description: "Analyze blockchain wallet histories." },
-    ];
-
-    const grid = document.getElementById("toolsGrid");
-
-    tools.forEach(tool => {
-      const card = document.createElement("div");
-      card.className = "tool-card";
-      card.innerHTML = `
-        <h2>${tool.name}</h2>
-        <p><strong>Price:</strong> ${tool.price}</p>
-        <p>${tool.description}</p>
-        <div class="unlock-section">
-          <input type="password" placeholder="Enter password to unlock">
-          <button class="unlock-button">Unlock & Download</button>
-        </div>
-      `;
-      grid.appendChild(card);
-    });
-
-    function filterTools() {
-      const input = document.getElementById("searchInput").value.toLowerCase();
-      const cards = document.querySelectorAll(".tool-card");
-      cards.forEach(card => {
-        const name = card.querySelector("h2").innerText.toLowerCase();
-        card.style.display = name.includes(input) ? "block" : "none";
-      });
-    }
-  </script>
 </body>
 </html>
+
